@@ -19,10 +19,10 @@ export class LandingPageService {
 
   cadastrarNewsletter(newsletter: Newsletter, captchaToken: string): Observable<any> {
     const params = new HttpParams().set('token', captchaToken);
-    return this.http.post<any>(`${apiUrl}/newsletter`,  newsletter, {params} );
+    return this.http.post<any>(`${apiUrl}public/newsletter`,  newsletter, {params} );
   }
   enviarFormContact(contato: Contato, captchaToken: string): Observable<any> {
     const params = new HttpParams().set('token', captchaToken);
-    return this.http.post(`${apiUrl}/contato`, contato, { params });
+    return this.http.post(`${apiUrl}public/contato`, contato, { params });
   }
 }

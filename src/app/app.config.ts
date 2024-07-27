@@ -6,6 +6,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { provideHttpClient } from '@angular/common/http';
 import { RECAPTCHA_V3_SITE_KEY, RecaptchaV3Module } from 'ng-recaptcha';
 import { environment } from '../environments/environment';
+import { Amplify } from 'aws-amplify';
 
 export const appConfig: ApplicationConfig = {
   providers: [
@@ -14,5 +15,9 @@ export const appConfig: ApplicationConfig = {
     MessageService,
     provideHttpClient(),
     { provide: RECAPTCHA_V3_SITE_KEY, useValue: environment.siteKeyV3 },
+
   ]
+
+
+
 };

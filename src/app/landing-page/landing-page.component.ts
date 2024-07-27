@@ -2,6 +2,7 @@
 import { Component } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { CommonModule } from '@angular/common';
+import { RouterModule } from '@angular/router';
 
 // PrimeNG
 import { StyleClassModule } from 'primeng/styleclass';
@@ -20,6 +21,7 @@ import { Newsletter } from '../models/newsletter';
 import { Contato } from '../models/contato';
 
 
+
 const imports = [
   ButtonModule,
   RippleModule,
@@ -32,7 +34,8 @@ const imports = [
   RecaptchaFormsModule,
   RecaptchaV3Module,
   CommonModule,
-  ProgressSpinnerModule
+  ProgressSpinnerModule,
+  RouterModule
 ]
 
 @Component({
