@@ -6,12 +6,17 @@
 
 <!-- HERO -->
 <div class="relative p-8 overflow-hidden bg-no-repeat bg-cover"
-    style="background-image: url('assets/images/hero_background.jpg'); background-position:  center top;">
+    style="background-image: url('assets/images/1.jpg'); background-position:  center top;">
     <div class="text-center my-6 relative">
-        <div class="text-lg md:text-6xl font-bold mb-1 text-white">Uma nova maneira de fazer a gestão de</div>
-        <div class="text-lg md:text-6xl text-blue-400 font-bold mb-4">bibliotecas</div>
-        <p class="mt-0 mb-3 line-height-3 text-center mx-auto text-blue-100" style="max-width:500px">Torne a gestão da
-            sua biblioteca mais simples e intuitiva com o nosso software inovador.</p>
+        <div class="text-lg md:text-6xl font-bold mb-1 text-white">Sua Biblioteca,</div>
+        <div class="text-lg md:text-6xl text-blue-400 font-bold mb-4">Nossa Gestão</div>
+        <p class="mt-0 mb-3 line-height-3 text-center mx-auto text-blue-100" style="max-width:500px">
+            +Simples</p>
+        <p class="mt-0 mb-3 line-height-3 text-center mx-auto text-blue-100" style="max-width:500px">
+
+            +Intuitiva</p>
+        <p class="mt-0 mb-3 line-height-3 text-center mx-auto text-blue-100" style="max-width:500px">
+            +Colaborativa</p>
     </div>
 </div>
 
@@ -20,14 +25,13 @@
     <div class="flex flex-wrap">
         <div class="w-full xl:w-6 p-3 pr-5">
             <span class="text-indigo-600 font-bold mb-4 block">Quem Somos</span>
-            <div class="font-bold text-lg md:text-6xl mb-4">Na Index Startup, somos apaixonados por desenvolver soluções
-                que tornem a gestão de bibliotecas mais simples e intuitiva.</div>
-            <p class="mt-0 mb-5 text-700 line-height-3 text-xl">Acreditamos que as bibliotecas desempenham um papel
-                fundamental na promoção do conhecimento, da cultura e da inclusão social. No entanto, muitas bibliotecas
-                ainda enfrentam desafios como falta de recursos, barreiras burocráticas e dificuldades em atender às
-                necessidades dos usuários modernos.</p>
-            <p class="mt-0 mb-5 text-700 line-height-3 text-xl">Gostaria de receber a nossa newsletter? Cadastre-se
-                abaixo!</p>
+            <!-- <div class="font-bold text-lg md:text-6xl mb-4">Na Index Startup, somos apaixonados por desenvolver soluções
+                que tornem a gestão de bibliotecas mais simples e intuitiva.</div> -->
+            <p class="mt-0 mb-5 text-700 line-height-3 text-xl">A Index é uma startup inovadora dedicada a desenvolver
+                soluções que tornem a gestão de bibliotecas mais simples, intuitiva e colaborativa. Somos apaixonados
+                pelo potencial que a tecnologia tem de tornar o conhecimento e a cultura acessíveis para todos.</p>
+            <p class="mt-0 mb-5 text-700 line-height-3 text-xl">Convidamos você a nos acompanhar nessa jornada!
+                Cadastre-se abaixo para receber a nossa newsletter:</p>
             <div class="relative w-full xl:w-30rem" *ngIf="!loadingNewsletter1">
                 <input pInputText type="text" [(ngModel)]="this.emailNewsletter1.email" placeholder="Informe seu e-mail"
                     class="py-3 pl-3 w-full" style="border-radius: 30px;padding-right: 8rem">
@@ -43,8 +47,8 @@
         <div class="w-full xl:w-6 p-3 flex align-items-center justify-content-center bg-indigo-50 p-4 lg:p-8 mt-5 xl:mt-0"
             style="border-radius: 30px">
             <div class="relative w-full" style="padding-bottom:56.25%;height:0;">
-                <img src="assets/images/hero2_backgroung.jpg" class="absolute top-0 left-0 w-full h-full border-round" width="560"
-                    height="315" title="YouTube video player" frameborder="0"
+                <img src="assets/images/2.jpg" class="absolute top-0 left-0 w-full h-full border-round"
+                    width="560" height="315" title="YouTube video player" frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen>
             </div>
@@ -56,14 +60,14 @@
 <div class="surface-section px-4 py-8 md:px-6 lg:px-8">
     <div class="grid">
         <div class="col-12 md:col-6">
-            <img src="assets/images/about.png" alt="Image" class="w-full">
+            <img src="assets/images/3.jpg" alt="Image" class="w-full border-round">
         </div>
         <div class="col-12 md:col-6">
-            
+
             <div class="pr-0 md:pr-8">
                 <div class="text-900 font-bold text-lg md:text-6xl mb-3">Recursos do Nosso Software</div>
-                <div class="text-700 line-height-3 mb-5">Nosso software oferece uma gama de funcionalidades pensadas
-                    para atender às necessidades específicas das bibliotecas públicas municipais.</div>
+                <div class="text-700 line-height-3 mb-5">Com a Index é mais fácil descobrir, localizar, acessar e
+                    compartilhar.</div>
 
                 <div class="mb-5 flex">
                     <div class="flex flex-column align-items-center" style="width:2rem">
@@ -93,8 +97,9 @@
                     </div>
                     <div class="ml-3">
                         <div class="font-medium text-900 mb-2">Engajamento de Usuários</div>
-                        <span class="line-height-3 text-700">Ferramentas interativas e modernas para promover eventos e
-                            atividades de leitura.</span>
+                        <span class="line-height-3 text-700">
+                            Ferramentas interativas e modernas para disseminar informações e promover eventos.
+                        </span>
                     </div>
                 </div>
 
@@ -103,14 +108,65 @@
                         <span
                             class="bg-purple-500 text-white flex align-items-center justify-content-center border-circle shadow-2"
                             style="min-width:2.5rem; min-height: 2.5rem; border: 2px solid #ffffff">
-                            <i class="pi pi-globe text-2xl"></i>
+                            <i class="pi pi-cloud text-2xl"></i>
                         </span>
                         <div class="h-full bg-purple-500" style="width: 2px; min-height: 4rem"></div>
                     </div>
                     <div class="ml-3">
                         <div class="font-medium text-900 mb-2">Totalmente Web</div>
                         <span class="line-height-3 text-700">
-                            Ferramenta 100% web, sem necessidade de instalação de softwares ou aplicativos.
+                            100% na nuvem, sem necessidade de instalação ou configuração de servidores locais.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mb-5 flex">
+                    <div class="flex flex-column align-items-center" style="width:2rem">
+                        <span
+                            class="bg-yellow-500 text-white flex align-items-center justify-content-center border-circle shadow-2"
+                            style="min-width:2.5rem; min-height: 2.5rem; border: 2px solid #ffffff">
+                            <i class="pi pi-lightbulb text-2xl"></i>
+                        </span>
+                        <div class="h-full bg-yellow-500" style="width: 2px; min-height: 4rem"></div>
+                    </div>
+                    <div class="ml-3">
+                        <div class="font-medium text-900 mb-2">Rede colaborativa</div>
+                        <span class="line-height-3 text-700">
+                            0% de retrabalho, se uma obra já foi descrita em nossa base, qualquer biblioteca pode usar o mesmo registro.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mb-5 flex">
+                    <div class="flex flex-column align-items-center" style="width:2rem">
+                        <span
+                            class="bg-primary-500 text-white flex align-items-center justify-content-center border-circle shadow-2"
+                            style="min-width:2.5rem; min-height: 2.5rem; border: 2px solid #ffffff">
+                            <i class="pi pi-globe text-2xl"></i>
+                        </span>
+                        <div class="h-full bg-primary-500" style="width: 2px; min-height: 4rem"></div>
+                    </div>
+                    <div class="ml-3">
+                        <div class="font-medium text-900 mb-2">Padronização Internacional</div>
+                        <span class="line-height-3 text-700">
+                            Alinhado com os mais recentes padrões da Biblioteconomia, mas mantendo a compatibilidade com os anteriores.
+                        </span>
+                    </div>
+                </div>
+
+                <div class="mb-5 flex">
+                    <div class="flex flex-column align-items-center" style="width:2rem">
+                        <span
+                            class="bg-pink-500 text-white flex align-items-center justify-content-center border-circle shadow-2"
+                            style="min-width:2.5rem; min-height: 2.5rem; border: 2px solid #ffffff">
+                            <i class="pi pi-file-import text-2xl"></i>
+                        </span>
+                        <div class="h-full bg-pink-500" style="width: 2px; min-height: 4rem"></div>
+                    </div>
+                    <div class="ml-3">
+                        <div class="font-medium text-900 mb-2">Importação e exportação de registros</div>
+                        <span class="line-height-3 text-700">
+                            Funcionalidades que permitem trazer os seus registros, mas sem aprisioná-los.
                         </span>
                     </div>
                 </div>
@@ -127,52 +183,63 @@ ARTICLE
         <div class="w-full lg:w-6 pr-0 lg:pr-5">
             <span class="text-blue-700 bg-blue-50 inline-block py-2 px-3" style="border-radius:50px">Leitura
                 longa</span>
-            <div class="font-normal text-2xl mt-3 mb-3 text-900">Conheça a Index: A Startup Revolucionando a Gestão de
-                Bibliotecas</div>
-            <div class="text-lg md:text-1xl text-900">Uma Paixão pela Inovação e pela Cultura</div>
+            <div class="font-normal text-2xl mt-3 mb-3 text-900">Conheça a Index: Uma Startup Revolucionando a Gestão de Bibliotecas</div>
             <p class="line-height-3 mt-0 mb-5">
-                A Index é uma nova startup que nasceu da nossa paixão por desenvolver soluções que tornam a gestão de
-                bibliotecas mais simples e intuitiva. Acreditamos firmemente que as bibliotecas desempenham um papel
-                fundamental na promoção do conhecimento, da cultura e da inclusão social. No entanto, sabemos que muitas
-                bibliotecas ainda enfrentam desafios significativos, como a falta de recursos, barreiras burocráticas e
-                dificuldades em atender às necessidades dos usuários modernos.
+                Acreditamos que as bibliotecas desempenham um papel fundamental na promoção do conhecimento, da cultura e da inclusão social. Infelizmente, muitas delas se veem impossibilitadas de implementar um gerenciamento informatizado devido a uma série de obstáculos, incluindo a escassez de recursos, entraves burocráticos e até a dificuldade em acompanhar as demandas atuais de seus usuários. 
             </p>
+            <p class="line-height-3 mt-0 mb-5">A Index foi criada para enfrentar todos esses obstáculos.</p>
             <div class="text-lg md:text-1xl text-900">Nossa Missão</div>
             <p class="line-height-3  mt-0 mb-5">
-                Nossa missão na Index é clara: queremos transformar a maneira como as bibliotecas públicas municipais
-                brasileiras operam. Estamos desenvolvendo um software inovador que vai muito além do simples
-                gerenciamento de acervo. Nosso objetivo é ajudar as bibliotecas a envolver seus usuários, engajar novos
-                leitores e fortalecer a comunidade através de um serviço mais eficiente e acessível.
+                Revolucionar o funcionamento das bibliotecas públicas, engajando novos leitores e fortalecendo as comunidades.
             </p>
-            <div class="text-lg md:text-1xl text-900">Soluções Sob Medida para todas Bibliotecas</div>
+            <div class="text-lg md:text-1xl text-900">Soluções Sob Medida</div>
             <p class="line-height-3 mt-0 mb-5">
-                Nosso novo software foi especialmente projetado para atender às necessidades das bibliotecas públicas e
-                privadas. Entendemos que cada biblioteca é única, com seus próprios desafios e
-                oportunidades. Por isso, estamos comprometidos em criar soluções personalizadas que realmente façam a
-                diferença no dia a dia dos bibliotecários e dos usuários.
+                Nosso software será especialmente projetado para atender às necessidades das bibliotecas públicas. Entendemos que cada biblioteca é única, com seus próprios desafios e oportunidades. Por isso, estamos comprometidos em criar soluções personalizáveis que realmente façam a diferença no dia a dia dos bibliotecários e dos usuários.
             </p>
-            <div class="text-lg md:text-1xl text-900">Convidamos Você a Participar</div>
+            <div class="text-lg md:text-1xl text-900">Convidamos Você a Participar desta Transformação</div>
             <p class="line-height-3 mt-0 mb-5">
-                Para melhor entendermos os desafios e as oportunidades das bibliotecas,
-                gostaríamos de convidá-lo(a) a preencher um breve formulário. Sua participação é crucial para que
-                possamos desenvolver soluções ainda mais adequadas às suas necessidades. Acreditamos que, juntos,
-                podemos transformar as bibliotecas em centros ainda mais vibrantes e inclusivos de aprendizado e
-                cultura.
-            </p>
-            <div class="text-lg md:text-1xl text-900">Faça Parte Desta Transformação</div>
-            <p class="line-height-3 mt-0 mb-5">
-                Estamos entusiasmados com o potencial de impacto positivo que nosso software pode trazer para as
-                bibliotecas públicas. Convidamos você a acompanhar nossa jornada e a fazer parte dessa transformação. A
-                Index está aqui para apoiar, inovar e crescer junto com as bibliotecas, promovendo um futuro onde o
-                conhecimento e a cultura sejam acessíveis a todos.
-            </p>
-            <p class="line-height-3 mt-0 mb-5">
-                Preencha o formulário e nos ajude a construir um futuro melhor para as bibliotecas públicas municipais
-                brasileiras. Juntos, podemos fazer a diferença!
+                Para melhor entendermos as suas necessidades, gostaríamos de convidar você a preencher um breve formulário. Sua participação é crucial para que possamos construir um futuro melhor para as bibliotecas públicas municipais brasileiras. Juntos, podemos fazer a diferença!
             </p>
         </div>
-        <div class="w-full lg:w-3 pl-0 lg:pl-4 pt-5">
-            <img src="assets/images/article.jpg" alt="Image" class="w-full border-round">
+        <div class="w-full lg:w-5 pl-0 lg:pl-4 pt-5">
+            <img src="assets/images/4.png" alt="Image" class="w-full border-round">
+        </div>
+    </div>
+</div>
+
+<!-- TESTIMONIAL -->
+<div class="surface-ground text-center px-4 py-8 md:px-6 lg:px-8">
+    <div class="flex flex-column md:flex-row">
+        <div class="flex-1 flex mb-4 md:mb-0 md:px-4 py-4 md:py-0">
+            <div class="shadow-2 surface-card border-round relative">
+                <div class="px-4 pb-4 pt-8 relative">
+                    <p class="text-900 font-italic line-height-3 text-lg m-0 pb-4 border-bottom-1 surface-border">
+                        “A biblioteca moderna transformou-se. Ela era uma força passiva, uma energia latente, um simples potencial de energia. Tornou-se uma força viva para a comunidade, uma energia liberada.”</p>
+                    <div class="text-900 font-semibold line-height-3 mt-4">Paul Otlet</div>
+                    <div class="text-600 line-height-3 text-sm">Traité de documentation</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-1 flex md:px-4 py-4 md:py-0">
+            <div class="shadow-2 surface-card border-round relative">
+                <div class="px-4 pb-4 pt-8 relative">
+                    <p class="text-900 font-italic line-height-3 text-lg m-0 pb-4 border-bottom-1 surface-border">
+                        “Nossa obrigação não é apenas satisfazer aos que têm sede de conhecimento, mas despertar essa sede naqueles que ainda não a sentiram.”</p>
+                    <div class="text-900 font-semibold line-height-3 mt-4">Adelpha de Figueiredo</div>
+                    <div class="text-600 line-height-3 text-sm">O Papel da Biblioteca na Educação</div>
+                </div>
+            </div>
+        </div>
+        <div class="flex-1 flex mb-4 md:mb-0 md:px-4 py-4 md:py-0">
+            <div class="shadow-2 surface-card border-round relative">
+                <div class="px-4 pb-4 pt-8 relative">
+                    <p class="text-900 font-italic line-height-3 text-lg m-0 pb-4 border-bottom-1 surface-border">
+                        “Economize o tempo do leitor. (...) Economize o tempo dos funcionários..”
+                    </p>
+                    <div class="text-900 font-semibold line-height-3 mt-4">S. R. Ranganathan</div>
+                    <div class="text-600 line-height-3 text-sm">Prolegomena to Library Classification</div>
+                </div>
+            </div>
         </div>
     </div>
 </div>
@@ -274,10 +341,12 @@ ARTICLE
 
     <div class="col-fixed flex align-items-center flex-order-0 lg:flex-order-1">
         <a tabindex="0" class="cursor-pointer mr-3">
-            <i class="pi pi-instagram surface-900 p-1 text-sm border-circle text-0" (click)="openLinkBlank('https://www.instagram.com/biblio.startup/')"></i>
+            <i class="pi pi-instagram surface-900 p-1 text-sm border-circle text-0"
+                (click)="openLinkBlank('https://www.instagram.com/biblio.startup/')"></i>
         </a>
         <a tabindex="0" class="cursor-pointer mr-3">
-            <i class="pi pi-facebook surface-900 p-1 text-sm border-circle text-0" (click)="openLinkBlank('https://www.facebook.com/profile.php?id=61559237679907')"></i>
+            <i class="pi pi-facebook surface-900 p-1 text-sm border-circle text-0"
+                (click)="openLinkBlank('https://www.facebook.com/profile.php?id=61559237679907')"></i>
         </a>
     </div>
 </div>
